@@ -1304,3 +1304,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 314.639787 seconds.
+  path: Assets/Palettes
+  artifactKey: Guid(982d2672874e21b4fa9701f48e4cf14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes using Guid(982d2672874e21b4fa9701f48e4cf14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5971fb0ea5bda4a0f362c7b0b5a974') in 0.017458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064298 seconds.
+  path: Assets/Palettes/Forest.prefab
+  artifactKey: Guid(a3924d1e1b5464e4eac15e75410a728e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/Forest.prefab using Guid(a3924d1e1b5464e4eac15e75410a728e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0b73c5f7662fccb20c6508e4511e0d') in 0.946744 seconds 
