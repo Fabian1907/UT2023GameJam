@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:UT2023GameJam/Assets/Sprites/Terrain/SET1_background_obj.png.meta
 guid: f1cf144269fc1cc41b4069edf924241e
+========
+guid: 4f0b6e9d57032d140888c0911af73fb3
+>>>>>>>> Stashed changes:UT2023GameJam/Assets/Sprites/Player/Fall (32x32).png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +52,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +76,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0

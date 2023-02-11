@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:UT2023GameJam/Assets/Tiles/SET1_Main_bckgrdlev_build_0.asset.meta
 guid: 3c47265c3eb6b1243bc6088fda76dca4
+========
+guid: 0dbbb2eec5a2c284cb9bc1766f83f97e
+>>>>>>>> Stashed changes:UT2023GameJam/Assets/Tiles/Terrain (16x16)_0.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

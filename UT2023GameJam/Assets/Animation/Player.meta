@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:UT2023GameJam/Assets/Animation/Player.meta
 guid: e2493c92fe75c8d468412ee44bbefa2c
+========
+guid: 0bf56ea184aad10498f56e3480b56901
+>>>>>>>> Stashed changes:UT2023GameJam/Assets/Sprites/Player.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

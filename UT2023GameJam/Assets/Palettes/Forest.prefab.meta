@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:UT2023GameJam/Assets/Palettes/Forest.prefab.meta
 guid: a3924d1e1b5464e4eac15e75410a728e
+========
+guid: ccb1896303d371f468816cae4854baa4
+>>>>>>>> Stashed changes:UT2023GameJam/Assets/Palettes/Terrain.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
