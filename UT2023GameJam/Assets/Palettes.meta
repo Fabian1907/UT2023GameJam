@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:UT2023GameJam/Assets/Palettes.meta
 guid: 982d2672874e21b4fa9701f48e4cf14f
+========
+guid: e4a1004e7b854a74782719a3d19094c6
+>>>>>>>> Stashed changes:UT2023GameJam/Assets/Sprites/Terrain.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
