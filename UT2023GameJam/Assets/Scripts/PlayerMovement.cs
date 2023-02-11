@@ -97,7 +97,9 @@ public class PlayerMovement : MonoBehaviour
             horizontalSpeed = Mathf.Clamp(horizontalSpeed, -maxSpeed, maxSpeed);
         }
         else
+        {
             horizontalSpeed = Mathf.MoveTowards(horizontalSpeed, 0f, deceleration * Time.deltaTime);
+        }
     }
     #endregion
 
@@ -144,6 +146,19 @@ public class PlayerMovement : MonoBehaviour
     }
     #endregion
 
+    #region Animations
+    public bool IsJumping { get; private set; }
+    public bool IsRunning { get; private set; }
+    public bool IsFalling { get; private set; }
+
+    private void CheckAnimations()
+    {
+        IsRunning = (horizontalSpeed != 0);
+        IsJumping = (body.velocity.y > 0 && !isGrounded);
+        IsFalling = (body.velocity.y < 0 && !isGrounded);
+    }
+    #endregion
+
     #region Move
     private void Move()
     {
@@ -164,6 +179,7 @@ public class PlayerMovement : MonoBehaviour
         CheckFlip();
         Walk();
         Jump();
+        CheckAnimations();
         Move();
     }
 }
