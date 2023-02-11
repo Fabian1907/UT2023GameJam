@@ -29,6 +29,7 @@ public class HeartBuddyPace : MonoBehaviour
     void Update()
     {
         TargetFollow();
+        //FlipSprite();
     }
 
     void TargetFollow()
@@ -53,4 +54,18 @@ public class HeartBuddyPace : MonoBehaviour
             // myAnimator.SetBool("Running", false);
         }
     }
+    /*
+    void FlipSprite()
+    {
+        if(playerTransform.position.x > transform.position.x)
+        {
+            transform.localScale = new Vector3(1,1,1);
+        } 
+        else if(playerTransform.position.x < transform.position.x)
+        {
+            // faceleft
+            transform.localScale = new Vector3(-1,1,1);
+        }
+    }
+    */
 }
