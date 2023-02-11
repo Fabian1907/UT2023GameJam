@@ -11,7 +11,6 @@ public class GroundCheck : MonoBehaviour
     {
         if (collision.gameObject.layer == GROUNDLAYER)
         {
-            Debug.Log("GROUND");
             IsGrounded = true;
         }
     }
