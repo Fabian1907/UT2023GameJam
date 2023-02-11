@@ -159,6 +159,13 @@ public class PlayerMovement : MonoBehaviour
     }
     #endregion
 
+    #region Die
+    public void Die()
+    {
+        transform.position = new Vector2(0, 0);
+    }
+    #endregion
+
     #region Move
     private void Move()
     {
