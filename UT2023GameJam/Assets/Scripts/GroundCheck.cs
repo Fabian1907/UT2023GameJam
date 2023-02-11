@@ -5,22 +5,21 @@ using UnityEngine;
 public class GroundCheck : MonoBehaviour
 {
     public bool IsGrounded { get; private set; }
+    private static int GROUNDLAYER = 3;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == 3)
+        if (collision.gameObject.layer == GROUNDLAYER)
         {
             IsGrounded = true;
-            Debug.Log("ground");
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == 3)
+        if (collision.gameObject.layer == GROUNDLAYER)
         {
             IsGrounded = false;
-            Debug.Log("air");
         }
     }
 }

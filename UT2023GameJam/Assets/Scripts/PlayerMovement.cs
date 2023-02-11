@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //HOI
-    private Vector3 rawMovement;
-    private float horizontalSpeed = 0f, verticalSpeed = 0f;
+    private float horizontalSpeed = 0f;
     [SerializeField] private GroundCheck groundCheck;
     private Rigidbody2D body;
 
@@ -133,7 +131,6 @@ public class PlayerMovement : MonoBehaviour
             if (lastTimeJumpReleased > lastTimeJumpPressed - bufferTime && HasBufferedJump())
             {
                 releasedJumpEarly = true;
-                Debug.Log("YES"); //########################
             }
             else
                 releasedJumpEarly = false;
