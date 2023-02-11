@@ -135,7 +135,10 @@ GameObject:
   - component: {fileID: 321642118}
   m_Layer: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_Name: Grid
@@ -150,6 +153,7 @@ GameObject:
   m_IsActive: 1
 --- !u!156049354 &321642118
 Grid:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -203,12 +207,15 @@ Rigidbody2D:
 CapsuleCollider2D:
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321642117}
   m_Enabled: 1
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_Density: 1
   m_Material: {fileID: 0}
@@ -273,11 +280,16 @@ SpriteRenderer:
 --- !u!4 &347538975
 >>>>>>> 15af9251f351c17163c53b679fee62207cf8e51c
 =======
+=======
+>>>>>>> Stashed changes
   m_CellSize: {x: 1, y: 1, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
 --- !u!4 &321642119
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
@@ -291,6 +303,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   - {fileID: 1231135491}
   m_Father: {fileID: 0}
@@ -300,6 +313,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
 >>>>>>> 15af9251f351c17163c53b679fee62207cf8e51c
+=======
+  - {fileID: 1231135491}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+>>>>>>> Stashed changes
 =======
   - {fileID: 1231135491}
   m_Father: {fileID: 0}
@@ -805,9 +823,12 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1231135490
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 --- !u!1 &933391333
 >>>>>>> 15af9251f351c17163c53b679fee62207cf8e51c
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 GameObject:
@@ -839,6 +860,7 @@ Transform:
   m_GameObject: {fileID: 1231135490}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -852,6 +874,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1280441804}
 >>>>>>> 15af9251f351c17163c53b679fee62207cf8e51c
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 321642119}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1803,6 +1832,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 592791081}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
@@ -2105,6 +2135,10 @@ PrefabInstance:
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 345b77f474a655545ae635f415317c6d, type: 3}
 >>>>>>> 15af9251f351c17163c53b679fee62207cf8e51c
+=======
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 =======
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
